@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631C29491C1A743B00DB7827 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 631C29481C1A743B00DB7827 /* 1.png */; };
+		631C294B1C1A795300DB7827 /* workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631C294A1C1A795300DB7827 /* workoutViewController.swift */; };
+		636E9F3D1C1E6E22001CB3F0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 636E9F3C1C1E6E22001CB3F0 /* 2.png */; };
+		636E9F3F1C1E6E54001CB3F0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 636E9F3E1C1E6E54001CB3F0 /* 3.png */; };
+		636E9F411C1E972E001CB3F0 /* SpinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E9F401C1E972E001CB3F0 /* SpinView.swift */; };
+		636E9F431C1E9CD0001CB3F0 /* TestViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E9F421C1E9CD0001CB3F0 /* TestViewViewController.swift */; };
+		636E9F471C1EA55C001CB3F0 /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 636E9F441C1EA55C001CB3F0 /* 33.png */; };
+		636E9F481C1EA55C001CB3F0 /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 636E9F451C1EA55C001CB3F0 /* 22.png */; };
+		636E9F491C1EA55C001CB3F0 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 636E9F461C1EA55C001CB3F0 /* 11.png */; };
+		636E9F4B1C1EBAC2001CB3F0 /* SpinContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E9F4A1C1EBAC2001CB3F0 /* SpinContentView.swift */; };
 		63C2B9951C169288007740DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C2B9941C169288007740DB /* AppDelegate.swift */; };
 		63C2B9971C169288007740DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C2B9961C169288007740DB /* ViewController.swift */; };
 		63C2B99A1C169288007740DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B9981C169288007740DB /* Main.storyboard */; };
@@ -34,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		631C29481C1A743B00DB7827 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		631C294A1C1A795300DB7827 /* workoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = workoutViewController.swift; sourceTree = "<group>"; };
+		636E9F3C1C1E6E22001CB3F0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		636E9F3E1C1E6E54001CB3F0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		636E9F401C1E972E001CB3F0 /* SpinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinView.swift; sourceTree = "<group>"; };
+		636E9F421C1E9CD0001CB3F0 /* TestViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewViewController.swift; sourceTree = "<group>"; };
+		636E9F441C1EA55C001CB3F0 /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
+		636E9F451C1EA55C001CB3F0 /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		636E9F461C1EA55C001CB3F0 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		636E9F4A1C1EBAC2001CB3F0 /* SpinContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinContentView.swift; sourceTree = "<group>"; };
 		63C2B9911C169288007740DB /* ScrollViewWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C2B9941C169288007740DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63C2B9961C169288007740DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,9 +120,19 @@
 				63C2B9941C169288007740DB /* AppDelegate.swift */,
 				63C2B9961C169288007740DB /* ViewController.swift */,
 				63C2B9981C169288007740DB /* Main.storyboard */,
+				631C294A1C1A795300DB7827 /* workoutViewController.swift */,
+				636E9F401C1E972E001CB3F0 /* SpinView.swift */,
+				636E9F421C1E9CD0001CB3F0 /* TestViewViewController.swift */,
+				636E9F4A1C1EBAC2001CB3F0 /* SpinContentView.swift */,
 				63C2B99B1C169288007740DB /* Assets.xcassets */,
 				63C2B99D1C169288007740DB /* LaunchScreen.storyboard */,
 				63C2B9A01C169288007740DB /* Info.plist */,
+				631C29481C1A743B00DB7827 /* 1.png */,
+				636E9F3C1C1E6E22001CB3F0 /* 2.png */,
+				636E9F3E1C1E6E54001CB3F0 /* 3.png */,
+				636E9F441C1EA55C001CB3F0 /* 33.png */,
+				636E9F451C1EA55C001CB3F0 /* 22.png */,
+				636E9F461C1EA55C001CB3F0 /* 11.png */,
 			);
 			path = ScrollViewWorkout;
 			sourceTree = "<group>";
@@ -193,6 +223,7 @@
 				TargetAttributes = {
 					63C2B9901C169288007740DB = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 55V6ERRQ79;
 					};
 					63C2B9A41C169288007740DB = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -230,6 +261,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				63C2B99F1C169288007740DB /* LaunchScreen.storyboard in Resources */,
+				631C29491C1A743B00DB7827 /* 1.png in Resources */,
+				636E9F3D1C1E6E22001CB3F0 /* 2.png in Resources */,
+				636E9F3F1C1E6E54001CB3F0 /* 3.png in Resources */,
+				636E9F491C1EA55C001CB3F0 /* 11.png in Resources */,
+				636E9F471C1EA55C001CB3F0 /* 33.png in Resources */,
+				636E9F481C1EA55C001CB3F0 /* 22.png in Resources */,
 				63C2B99C1C169288007740DB /* Assets.xcassets in Resources */,
 				63C2B99A1C169288007740DB /* Main.storyboard in Resources */,
 			);
@@ -258,6 +295,10 @@
 			files = (
 				63C2B9971C169288007740DB /* ViewController.swift in Sources */,
 				63C2B9951C169288007740DB /* AppDelegate.swift in Sources */,
+				636E9F4B1C1EBAC2001CB3F0 /* SpinContentView.swift in Sources */,
+				636E9F411C1E972E001CB3F0 /* SpinView.swift in Sources */,
+				631C294B1C1A795300DB7827 /* workoutViewController.swift in Sources */,
+				636E9F431C1E9CD0001CB3F0 /* TestViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +438,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ScrollViewWorkout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = misk.ScrollViewWorkout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +452,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ScrollViewWorkout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = misk.ScrollViewWorkout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +529,7 @@
 				63C2B9BB1C169288007740DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63C2B9BC1C169288007740DB /* Build configuration list for PBXNativeTarget "ScrollViewWorkoutTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +538,7 @@
 				63C2B9BE1C169288007740DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63C2B9BF1C169288007740DB /* Build configuration list for PBXNativeTarget "ScrollViewWorkoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +547,7 @@
 				63C2B9C11C169288007740DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
