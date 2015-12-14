@@ -37,8 +37,8 @@ class SpinView: UIView {
 //        self = UIView(frame: CGRectMake(0, 0, self.frame.height, self.frame.height))
 //        self.center = CGPoint(x: center.x, y: frame.maxY)
 //        self.clipsToBounds = true
-//        self.backgroundColor = UIColor(red:0.973,  green:0.588,  blue:0.502, alpha:1)
-        self.backgroundColor = UIColor(red:0.973,  green:0.888,  blue:0.802, alpha:1)
+        self.backgroundColor = UIColor(red:0.973,  green:0.588,  blue:0.502, alpha:1)
+//        self.backgroundColor = UIColor(red:0.973,  green:0.888,  blue:0.802, alpha:1)
         self.layer.cornerRadius = self.bounds.size.height / 2
     }
     
@@ -80,7 +80,6 @@ class SpinView: UIView {
             imageView.center = CGPoint(x: positionOnSpinView.x, y: positionOnSpinView.y)
             // spin images on the view
             contentView.transform = CGAffineTransformMakeRotation((degreeOfImage + startAngle).RadianValue.CGFloatValue)
-            print("frame yo is \(contentView.frame)")
             
             self.addSubview(contentView)
             contentViews?.append(contentView)

@@ -25,10 +25,6 @@ class SpinContentView: UIView {
     convenience init(title: String, subtitle: String, image: UIImage) {
         self.init(frame: UIScreen.mainScreen().bounds)
         
-        // debug
-        self.layer.borderWidth = 3.0
-        self.layer.borderColor = UIColor.redColor().CGColor
-        
         // setup title
         titleLabel = UILabel(frame: CGRectMake(0, 0, self.frame.width, titleTextSize))
         titleLabel?.textColor = UIColor.whiteColor()
@@ -43,6 +39,7 @@ class SpinContentView: UIView {
         subTitleLabel = UILabel(frame: CGRectMake(0, 0, self.frame.width, subtitleTextSize))
         subTitleLabel?.textAlignment = .Center
         subTitleLabel?.textColor = UIColor.whiteColor()
+        subTitleLabel?.alpha = 0.75
         // below title
         subTitleLabel?.center = CGPoint(x: titleLabel!.center.x, y: titleLabel!.center.y + (titleTextSize + subtitleTextSize) / 2 + titleSpacing)
         subTitleLabel?.text = subtitle
@@ -59,9 +56,6 @@ class SpinContentView: UIView {
         self.addSubview(imageView!)
         self.addSubview(titleLabel!)
         self.addSubview(subTitleLabel!)
-        
-        // reposition
-        print("yo the frame is \(self.frame)")
     }
     
     required init?(coder aDecoder: NSCoder) {
